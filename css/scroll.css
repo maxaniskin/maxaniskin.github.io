@@ -1,0 +1,43 @@
+/* 
+  Background gradients from lea.verou.me/css3patterns
+  Background SVG from heropatterns.com
+*/
+#slide_section{position: relative;}
+.slide {
+ height: 100vh;
+}
+.slide1,.block1 {
+  background-color: #fff;position:relative ; top: 4rem;
+}
+.slide2,.block2 {
+    background-color: rgba(142, 135, 135, 0);position:fixed; top: 4rem;
+
+}
+.slide3,.block3 {  background-color: rgba(199, 240, 145, 0);position: sticky; top: 4rem;z-index: 11;
+
+
+}
+
+.slide4,.block4 {
+  background-color: rgb(112, 110, 110);position:sticky ; top: 4rem;z-index: 17;
+}
+.slide5,.block5 {
+    background-color: rgb(54, 9, 234);position: sticky; top: 4rem;z-index: 19;
+
+}
+.slide6,.block6 {  background-color: rgb(11, 159, 132);position: sticky; top: 4rem;z-index: 21;
+
+
+}
+.fix-it {
+   background-attachment: fixed;
+  
+}
+h1 {
+  display: block;
+  margin: auto;
+  padding: 20%;
+  font-size: 40px;
+  color: dimgray;
+  text-align: center;
+}
